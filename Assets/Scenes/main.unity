@@ -251,6 +251,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 4
   MaxMovement: 2
+--- !u!1 &145713349
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 145713351}
+  - component: {fileID: 145713350}
+  m_Layer: 0
+  m_Name: DataPersistenceManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &145713350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145713349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb6fafcaab472824fb71723e411e245b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &145713351
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145713349}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 358.65787, y: 161.2742, z: -88.81453}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &177912857
 GameObject:
   m_ObjectHideFlags: 0
@@ -502,6 +545,7 @@ MonoBehaviour:
   LineCount: 6
   Ball: {fileID: 177912862}
   ScoreText: {fileID: 188020406}
+  HighscoreText: {fileID: 2078529056}
   GameOverText: {fileID: 474497238}
 --- !u!1 &455529321
 GameObject:
@@ -756,6 +800,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
   m_RenderPostProcessing: 0
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
@@ -1298,7 +1343,7 @@ GameObject:
   - component: {fileID: 2078529057}
   - component: {fileID: 2078529056}
   m_Layer: 5
-  m_Name: ScoreText (1)
+  m_Name: HighscoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
